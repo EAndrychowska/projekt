@@ -1,0 +1,24 @@
+html,body
+{
+  background-color: palegreen;
+  margin:0;
+  padding: 0;
+}
+.nav
+{
+  position: fixed;
+  background-color: darkgray;
+  height: 20px;
+  width: 100%;
+  &__button
+  {
+    padding-left:3px;
+    padding-bottom: 5px;
+    background: 0;
+    width: 20px;
+    height: 20px;
+    border:0;
+    color:lightgrey;
+    font-weight: bold;
+  }
+}

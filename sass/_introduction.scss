@@ -1,0 +1,282 @@
+.main
+{
+  &__introduction
+  {
+    text-align:justify;
+    width: 152px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    &-first
+    {
+      border:1px solid black;
+      margin-bottom: 15px;
+      &_text
+      {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      &_figcaption
+      {
+        text-align: center;
+        background-color: black;
+        color:white;
+        width: 151px;
+        margin:0;
+      }
+    }
+    &-second
+    { border:1px solid black;
+      margin-bottom: 15px;
+      &_text
+      {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      &_figcaption
+      {
+        text-align: center;
+        background-color: black;
+        color:white;
+        width: 151px;
+        margin:0;
+      }
+    }
+    &-third
+    { border:1px solid black;
+      margin-bottom: 15px;
+      &_text
+      {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      &_figcaption
+      {
+        text-align: center;
+        background-color: black;
+        color:white;
+        width: 151px;
+        margin:0;
+      }
+    }
+    &-fourth
+    { border:1px solid black;
+      margin-bottom: 15px;
+      &_text
+      {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      &_figcaption
+      {
+        text-align: center;
+        background-color: black;
+        color:white;
+        width: 151px;
+        margin:0;
+      }
+    }
+  }
+  &__develop
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+    &-image
+    {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+    &-block
+    {
+      &_first
+      {
+        &-image
+        {
+          float: left;
+          width: 20%;
+          margin-bottom: 10px;
+        }
+        &-text
+        {
+          float: left;
+          text-align: justify;
+          padding-left: 2%;
+          width: 78%;
+        }
+      }
+      &_second
+      {
+        clear: both;
+        &-image
+        {
+          float: left;
+          width: 20%;
+          margin-bottom: 20px;
+        }
+        &-text {
+          float: left;
+          text-align: justify;
+          padding-left: 2%;
+          width: 78%;
+        }
+      }
+    }
+  }
+  &__end
+  {
+    margin: 10px 10% 30px 10%;
+    text-align: justify;
+    &-image
+    {
+      width:100%;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+    &-text
+    {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media all and (min-width:$sm-min)
+{
+  .main
+  {
+    &__introduction
+    {
+      margin-left: 10%;
+      margin-right: 10%;
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 300%;
+      -moz-column-gap: 300%;
+      column-gap: 300%;
+      &-first
+      {
+        float: left;
+      }
+      &-second
+      {
+        float: left;
+
+      }
+      &-third
+      {
+        float: left;
+      }
+      &-fourth
+      {
+        float: left;
+      }
+    }
+  }
+}
+@media all and (min-width:$lg-min)
+{
+  .main
+  {
+    &__introduction
+    {
+      -moz-column-count: 4;
+      -webkit-column-count: 4;
+      column-count: 4;
+      -webkit-column-gap: 200%;
+      -moz-column-gap: 200%;
+      column-gap: 200%;
+      &-first
+      {
+        float: left;
+      }
+      &-second
+      {
+        float: left;
+      }
+      &-third
+      {
+        float: left;
+      }
+      &-fourth
+      {
+        float: left;
+      }
+    }
+  &__develop
+  {
+    &-image
+    {
+      width: 48%;
+      float:left;
+      padding-right: 2%;
+    }
+    &-block
+    {
+      float:left;
+      height: 200px;
+      width: 50%;
+
+        &_first
+        {
+          height: 100px;
+          &-image
+          {
+            width: 75px;
+            height: 75px;
+            margin-bottom: 25px;
+          }
+          &-text
+          {
+            margin: 0;
+            height: 75px;
+          }
+        }
+      &_second
+      {
+        height: 100px;
+        margin-top: 25px;
+        &-image
+        {
+          width: 75px;
+          height: 75px;
+        }
+        &-text
+        {
+          margin: 0;
+          height: 75px;
+        }
+      }
+    }
+  }
+    &__end
+    {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 5px;
+      &-image
+      {
+        clear:both;
+        width: 40%;
+        float:right;
+        padding-right: 10%;
+      }
+      &-text
+      {
+        width: 38%;
+        float:right;
+        height: 200px;
+        margin-left: 10%;
+        padding-right: 2%;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
